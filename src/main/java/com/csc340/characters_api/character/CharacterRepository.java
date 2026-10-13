@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
-public interface MKCharacterRepository extends JpaRepository<MKCharacter, Long> {
+public interface CharacterRepository extends JpaRepository<MKCharacter, Long> {
 
     List<MKCharacter> findByRealm(Realm realm);
 
